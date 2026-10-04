@@ -1,0 +1,37 @@
+# Prerequisites
+*.d
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.out
+*.exe
+
+# Arduino IDE build files
+build/
+*.hex
+*.bin
+*.eep
+*.srec
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+desktop.ini
