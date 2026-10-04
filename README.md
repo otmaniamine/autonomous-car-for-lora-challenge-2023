@@ -17,13 +17,15 @@
 
 ---
 
-## 🎥 Video Demonstration
+## 🎥 Live Demonstration
 
-Check out the line follower in action during tracking tests:
+<p align="center">
+  <img src="docs/media/test_line_following.gif" alt="Autonomous Line Following Demo" width="650"/>
+  <br/>
+  <em>Autonomous Line Following & Track Navigation Test</em>
+</p>
 
-https://github.com/user-attachments/assets/demo
-
-> 📹 **Video File**: [docs/media/test_line_following.mp4](docs/media/test_line_following.mp4)
+> 📹 High-definition MP4 video available at: [docs/media/test_line_following.mp4](docs/media/test_line_following.mp4)
 
 ---
 
@@ -31,7 +33,7 @@ https://github.com/user-attachments/assets/demo
 
 - [Overview](#-overview)
 - [Robot Showcase](#-robot-showcase)
-- [Video Demonstration](#-video-demonstration)
+- [Live Demonstration](#-live-demonstration)
 - [Key Features](#-key-features)
 - [Hardware Architecture & Components](#-hardware-architecture--components)
 - [Circuit Diagram & Pinout](#-circuit-diagram--pinout)
@@ -129,9 +131,10 @@ Robotic-LORA-2023/
 ├── docs/
 │   ├── diagrams/
 │   │   └── circuit_diagram.png       # Hardware schematics & wiring reference
-│   └── media/                        # Project photos & test video demonstration
+│   └── media/                        # Project photos, animated GIF & test video
 │       ├── robot_version_1.png       # Prototype iteration 1
 │       ├── robot_version_2.png       # Prototype iteration 2
+│       ├── test_line_following.gif   # Animated GIF demo for README
 │       └── test_line_following.mp4   # Video demonstration of line following
 ├── libraries/                        # Dependency zip archives (Adafruit TCS34725)
 │   └── Adafruit_TCS34725-master.zip
