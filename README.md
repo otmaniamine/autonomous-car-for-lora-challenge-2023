@@ -1,4 +1,4 @@
-# 🤖 Autonomous Line Follower Robot — LORA 2023 Competition
+#  Autonomous Line Follower Robot — LORA 2023 Competition
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Arduino-00979C.svg?logo=arduino)](https://www.arduino.cc/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📸 Robot Showcase
+##  Robot Showcase
 
 | Prototype Iteration 1 (Chassis Assembly) | Prototype Iteration 2 (Full Sensor & Actuator Integration) |
 | :---: | :---: |
@@ -17,7 +17,7 @@
 
 ---
 
-## 🎥 Live Demonstration
+##  Live Demonstration
 
 <p align="center">
   <img src="docs/media/test_line_following.gif" alt="Autonomous Line Following Demo" width="650"/>
@@ -29,7 +29,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Robot Showcase](#-robot-showcase)
@@ -46,7 +46,7 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 The **LORA 2023 Line Follower** was engineered to autonomously navigate complex tracks, handle intersections, detect color-coded mission zones (Red, Green, Blue), detect obstacles in real time, and trigger physical actions (e.g. servo-driven gripper/gate) based on track markings.
 
@@ -58,7 +58,7 @@ The **LORA 2023 Line Follower** was engineered to autonomously navigate complex 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Dual-Sensor IR Line Following**: Real-time differential steering based on TCRT5000 IR sensor feedback.
 - **Dual RGB Color Processing**: Adafruit TCS34725 color sensing for mission zone identification:
@@ -85,7 +85,7 @@ The **LORA 2023 Line Follower** was engineered to autonomously navigate complex 
 
 ---
 
-## 🔌 Circuit Diagram & Pinout
+##  Circuit Diagram & Pinout
 
 ![Circuit Diagram](docs/diagrams/circuit_diagram.png)
 
@@ -144,7 +144,7 @@ Robotic-LORA-2023/
 
 ---
 
-## 🧠 Algorithm & State Logic
+##  Algorithm & State Logic
 
 ### 1. Line Navigation Logic
 
@@ -176,7 +176,7 @@ flowchart TD
 
 ---
 
-## 🚀 Installation & Getting Started
+##  Installation & Getting Started
 
 ### 1. Prerequisites
 - [Arduino IDE](https://www.arduino.cc/en/software) (Version 1.8.x or 2.x)
@@ -197,7 +197,7 @@ flowchart TD
 
 ---
 
-## ⚙ Calibration & Tuning
+##  Calibration & Tuning
 
 1. **IR Sensor Sensitivity**: Adjust the onboard potentiometer on each TCRT5000 module until the onboard LED switches cleanly between the track surface (White) and the tape (Black).
 2. **Color Sensor Thresholds**: Upload `src/tests/RGB_Single_TCS34725/` or `src/tests/RGB_Dual_TCS34725/`, open the Serial Monitor (9600 baud), and record ambient RGB levels over competition markers. Adjust the thresholds in `LORA_LineFollower_Main.ino`:
@@ -210,18 +210,18 @@ flowchart TD
 
 ---
 
-## 🏆 Competition Results & Lessons Learned
+##  Competition Results & Lessons Learned
 
 - Designed and competed during the **LORA 2023** robotics challenge.
 - Successfully implemented autonomous color-based checkpoint logic and obstacle avoidance on an embedded 8-bit ATmega328P platform.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 **Author:** [Otmani Amine](https://github.com/otmaniamine)  
-**Year:** 2023 – 2026
+**Year:** 10/2023 – 12/2023
